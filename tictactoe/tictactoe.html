@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe AI</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <script type="text/javascript" src="scripts/jquery-v1-11-1.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <h1>Tic Tac Toe</h1>
+            <h3>Machine Learning Implementation</h3>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" id="x" class="btn" data-dismiss="modal" onClick="setFig(this.id)"><span class="x"><span></button>
+            <button type="button" id="o" class="btn" data-dismiss="modal" onClick="setFig(this.id)"><span class="o"><span></button>
+        </div>
+
+        <div class="game-field">
+            <div class="game-cell">
+                <div class="grid-content" id="first" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="second" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="third" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="fourth" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="fifth" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="sixth" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="seventh" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="eighth" onClick="icon(this.id)"></div>
+            </div>
+            <div class="game-cell">
+                <div class="grid-content" id="ninth" onClick="icon(this.id)"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <script type="text/javascript" src="scripts/input.js"></script> -->
+    <script type="text/javascript" src="scripts/game.js"></script>
+</body>
+
+</html>
